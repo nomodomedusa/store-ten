@@ -12,5 +12,15 @@ module.exports = defineConfig({
       jwtSecret: process.env.JWT_SECRET || "supersecret",
       cookieSecret: process.env.COOKIE_SECRET || "supersecret",
     }
-  }
+  },
+  admin: {
+    vite: () => {
+      return {
+        server: {
+          // allowedHosts: [".e0c0-2001-558-1401-10-00-2baf.ngrok-free.app"],
+          allowedHosts: [".medcuj50705iopbne72o7cg.nomodo.app"],
+        },
+      };
+    },
+  },
 })
