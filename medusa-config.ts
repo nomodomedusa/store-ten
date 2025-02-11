@@ -18,7 +18,7 @@ module.exports = defineConfig({
       return {
         server: {
           // allowedHosts: [".e0c0-2001-558-1401-10-00-2baf.ngrok-free.app"],
-          allowedHosts: [".medcuj50705iopbne72o7cg.nomodo.app"],
+          allowedHosts: [".medculr54g5iop060oelp80.nomodo.app"],
         },
       };
     },
